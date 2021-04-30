@@ -19,3 +19,5 @@ Task 1: Involves importing the data using SQL. Data is turned into .csv format a
 Task 2: A thorough exploratory data analysis was conducted.
 
 Task 3: Modeling. Initially, three different regression models were tested (Random Forest Regressor, Linear Regression, and Support Vector Regression) to determine whether limit_bal can be predicted. Results were not good, so limit_bal was discretized and predictions were attempted using a classification method. Then, a decision tree classifier was also used to predict whether a client would default or not.  
+
+Ultimately, predicting the amount of credit a client should be allowed (limit_bal) was not possible with the given data. However, predicting whether or not a client would default was possible, and depended largely on the clients payment status and whether they were behind on their payments.
