@@ -14,3 +14,8 @@ Data: Data was queried from a MySQL database and contains the following informat
 - "bill_amt1 - bill_amt6": indicating the amount of the bill statement for each month (for April to Sept 2005, as above)
 - "pay_amt1 - pay_amt6": indicating the amount of previous payment (from April to Sept 2005, as above)
 
+Task 1: Involves importing the data using SQL. Data is turned into .csv format and cleaned for use in the next task.
+
+Task 2: A thorough exploratory data analysis was conducted.
+
+Task 3: Modeling. Initially, three different regression models were tested (Random Forest Regressor, Linear Regression, and Support Vector Regression) to determine whether limit_bal can be predicted. Results were not good, so limit_bal was discretized and predictions were attempted using a classification method. Then, a decision tree classifier was also used to predict whether a client would default or not.  
